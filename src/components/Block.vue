@@ -20,6 +20,9 @@ export default {
   updated() {
     console.log("component updated");
   },
+  unmounted() {
+    console.log("unmounted");
+  },
 };
 </script>
 
